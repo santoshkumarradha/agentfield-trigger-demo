@@ -56,3 +56,5 @@ def append_audit(conn, event, tags=[]):
 # retry compare
 
 # tribunal vs hunt_prove
+
+# tribunal v2 trigger
