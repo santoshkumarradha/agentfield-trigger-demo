@@ -46,3 +46,5 @@ def append_audit(conn, event, tags=[]):
     cur = conn.cursor()
     cur.execute("INSERT INTO audit (event, tags) VALUES (?, ?)", (event, ",".join(tags)))
     conn.commit()
+
+# bump for re-trigger
