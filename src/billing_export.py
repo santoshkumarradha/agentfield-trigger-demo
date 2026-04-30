@@ -73,3 +73,5 @@ def export_for_customer(customer_id: str, window_days: int = 30) -> dict:
 def export_for_all_active(customer_ids: Iterable[str]) -> list[dict]:
     """Run the export sequentially for every customer id."""
     return [export_for_customer(cid) for cid in customer_ids]
+
+# trigger v3
