@@ -52,3 +52,5 @@ def append_audit(conn, event, tags=[]):
 # fix-test trigger
 
 # excavator vs hunt_prove
+
+# retry compare
