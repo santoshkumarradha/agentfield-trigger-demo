@@ -54,3 +54,5 @@ def append_audit(conn, event, tags=[]):
 # excavator vs hunt_prove
 
 # retry compare
+
+# tribunal vs hunt_prove
